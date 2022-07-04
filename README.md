@@ -31,7 +31,7 @@ Make sure that you have a decent frontend for this. No need to make it too good,
 
 #### Phase 2: Some Cool Features
 Now you will extend the basic project you created by adding some cool features which will require "some" additional learning on your part. Patience is key here.
-1. Up until now, you've only been using an Sqlite3 database. Time to upgrade. Change your database backend to MySQL (since it's part of the DVM's tech stack).
+1. Up until now, you've only been using an Sqlite3 database. Time to upgrade. Change your database backend to PostgreSQL (since it's part of the DVM's tech stack).
 2. Add a profile pictures feature. For this you'll need to learn how to store and reference/retrieve files and images in Django. You'll also probably need to learn how to do some image formatting using Pillow.
 3. **Without** using the student pack that you got, make a seperate account on SendGrid. Then using SendGrid's API, extend the "following other people" feature so that you can choose to recieve mail based notificiations whenever that person makes a new post (so now there are two ways to follow a person.)
 4. Extend the login system. Make it so that a person can also log in with Google. Use Google's API to provide OAUTH 2.0 based log-in.
